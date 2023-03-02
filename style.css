@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Kalam:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Comfortaa", cursive;
+  color: #f6f6f6;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #363538;
+}
+
+header {
+  text-align: center;
+}
+
+.nav-img {
+  height: 10vh;
+  width: 10vh;
+  margin-top: 3rem;
+}
+
+.nav-bar {
+  background-color: #363538;
+  box-shadow: 0 -2rem 2rem -1rem rgba(82, 214, 244, 0.05) inset;
+  border: 2px black;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  overflow: hidden;
+}
+
+.nav-bar h1 {
+  color: white;
+}
+
+.nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.nav-bar li {
+  padding: 0rem 2rem;
+  font-size: 20px;
+  padding-bottom: 2rem;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+}
+
+.name {
+  text-align: center;
+  font-family: "Kalam", cursive;
+  font-size: 4rem;
+}
+
+.nav-bar a:hover {
+  border: 2px solid black;
+  border-radius: 10px;
+  border-bottom-style: none;
+}
+
+hr {
+  border: 1px solid green;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 60vw;
+  margin-left: 29vw;
+}
+
+h3 {
+  padding-bottom: 1rem;
+}
+
+main {
+  margin-top: 35vh;
+  margin-bottom: 10vh;
+}
+
+main header {
+  display: flex;
+  flex-directoin: row;
+  justify-content: center;
+}
+
+main header div {
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+main header h2 {
+  width: 40vw;
+  text-align: left;
+  text-shadow: 1px 1px 1px white;
+}
+
+main header a {
+  color: #8d8c8a;
+}
+
+main ol {
+  padding-left: 2rem;
+  border-left: 0.25rem solid green;
+}
+
+main li {
+  margin-top: 0.5rem;
+}
+
+.main-paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding-left: 35vw;
+  padding-right: 35vw;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.main-paragraph footer {
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+footer a:link {
+  text-decoration: none;
+  color: blue;
+}
+
+footer a:visited {
+  text-decoration: none;
+  color: green;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+footer a:active {
+  text-decoration: none;
+  color: green;
+}
+
+.footer-contacts {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding-right: 15vw;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+footer h2 {
+  margin-left: 15vw;
+  margin-right: auto;
+}
+
+.footer-contacts ul {
+  display: flex;
+  flex-direction: row;
+  font-size: 22px;
+}
+
+.footer-contacts li {
+  list-style-type: none;
+  padding: 0 1rem;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 30vh;
+}
+
+.map iframe {
+  width: 25vw;
+  height: 25vh;
+}
